@@ -27,9 +27,8 @@
 <script>
 import Gallery from './views/Gallery.vue'
 export default {
-  components: {Gallery},
-  mounted(){
-    //console.log('mounted');
+  components: { Gallery },
+  mounted () {
     window.Store = this.$store;
   }
 }
